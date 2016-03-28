@@ -15,6 +15,7 @@
 		B835E0841CA4DF2900A97D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B835E0821CA4DF2900A97D4A /* LaunchScreen.storyboard */; };
 		B835E08F1CA4DF2900A97D4A /* GDNBAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E08E1CA4DF2900A97D4A /* GDNBAnimationTests.m */; };
 		B835E09A1CA4DF2900A97D4A /* GDNBAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E0991CA4DF2900A97D4A /* GDNBAnimationUITests.m */; };
+		B835E0A91CA4DF6400A97D4A /* GDAnimationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E0A81CA4DF6400A97D4A /* GDAnimationModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B835E0951CA4DF2900A97D4A /* GDNBAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDNBAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B835E0991CA4DF2900A97D4A /* GDNBAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDNBAnimationUITests.m; sourceTree = "<group>"; };
 		B835E09B1CA4DF2900A97D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B835E0A71CA4DF6400A97D4A /* GDAnimationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDAnimationModel.h; sourceTree = "<group>"; };
+		B835E0A81CA4DF6400A97D4A /* GDAnimationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDAnimationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B835E0781CA4DF2900A97D4A /* AppDelegate.m */,
 				B835E07A1CA4DF2900A97D4A /* ViewController.h */,
 				B835E07B1CA4DF2900A97D4A /* ViewController.m */,
+				B835E0A71CA4DF6400A97D4A /* GDAnimationModel.h */,
+				B835E0A81CA4DF6400A97D4A /* GDAnimationModel.m */,
 				B835E07D1CA4DF2900A97D4A /* Main.storyboard */,
 				B835E0801CA4DF2900A97D4A /* Assets.xcassets */,
 				B835E0821CA4DF2900A97D4A /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B835E07C1CA4DF2900A97D4A /* ViewController.m in Sources */,
+				B835E0A91CA4DF6400A97D4A /* GDAnimationModel.m in Sources */,
 				B835E0791CA4DF2900A97D4A /* AppDelegate.m in Sources */,
 				B835E0761CA4DF2900A97D4A /* main.m in Sources */,
 			);
