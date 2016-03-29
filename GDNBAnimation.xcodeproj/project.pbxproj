@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B806BA621CA8CDD300628F59 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B806BA611CA8CDD300628F59 /* icon.png */; };
 		B835E0761CA4DF2900A97D4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E0751CA4DF2900A97D4A /* main.m */; };
 		B835E0791CA4DF2900A97D4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E0781CA4DF2900A97D4A /* AppDelegate.m */; };
 		B835E07C1CA4DF2900A97D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E07B1CA4DF2900A97D4A /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B806BA611CA8CDD300628F59 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		B835E0711CA4DF2900A97D4A /* GDNBAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDNBAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B835E0751CA4DF2900A97D4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B835E0771CA4DF2900A97D4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		B835E0731CA4DF2900A97D4A /* GDNBAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B806BA611CA8CDD300628F59 /* icon.png */,
 				B835E0771CA4DF2900A97D4A /* AppDelegate.h */,
 				B835E0781CA4DF2900A97D4A /* AppDelegate.m */,
 				B835E07A1CA4DF2900A97D4A /* ViewController.h */,
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B806BA621CA8CDD300628F59 /* icon.png in Resources */,
 				B835E0841CA4DF2900A97D4A /* LaunchScreen.storyboard in Resources */,
 				B835E0811CA4DF2900A97D4A /* Assets.xcassets in Resources */,
 				B835E07F1CA4DF2900A97D4A /* Main.storyboard in Resources */,
@@ -502,6 +506,7 @@
 				B835E0A01CA4DF2900A97D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B835E0A11CA4DF2900A97D4A /* Build configuration list for PBXNativeTarget "GDNBAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				B835E0A31CA4DF2900A97D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B835E0A41CA4DF2900A97D4A /* Build configuration list for PBXNativeTarget "GDNBAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				B835E0A61CA4DF2900A97D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
